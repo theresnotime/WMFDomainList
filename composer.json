@@ -1,5 +1,6 @@
 {
     "name": "theresnotime/wmf-domain-list",
+	"description": "Generate a list of Wikimedia Foundation domains",
     "type": "project",
     "license": "MIT",
     "authors": [
