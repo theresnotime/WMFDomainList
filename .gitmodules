@@ -1,0 +1,3 @@
+[submodule "mediawiki-config"]
+	path = mediawiki-config
+	url = https://gerrit.wikimedia.org/r/operations/mediawiki-config
