@@ -1,0 +1,9 @@
+# https://wikitech.wikimedia.org/wiki/Help:Toolforge/Jobs_framework
+---
+# Refresh domain list
+- name: dailyrefresh
+  command: /data/project/wm-domains/WMFDomainList/autogen.sh
+  image: php7.4
+  no-filelog: true
+  schedule: "0 2 * * *"
+  emails: onfailure
