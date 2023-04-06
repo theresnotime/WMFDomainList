@@ -112,6 +112,10 @@ class WMFDomainList
     {
         $json = json_encode(
             [
+                'meta' => [
+                    'version' => '1.0.0',
+                    'source' => 'https://github.com/theresnotime/WMFDomainList'
+                ],
                 'generated' => date('Y-m-d H:i:s'),
                 'domains' => $this->generate()
             ],
